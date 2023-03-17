@@ -295,10 +295,12 @@ section#about .about-container p{
 
     div#hero .hero-container .hero-first {
         padding: 1rem;
+        align-items: center;
     }
 
     div#hero .hero-container .hero-first img {
-        width: 550px;
+        width: 300px;
+        align-items: center;
     }
 
     div#hero .hero-container .hero-second {
