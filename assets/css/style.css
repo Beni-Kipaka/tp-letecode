@@ -191,6 +191,10 @@ div#hero .hero-container .hero-second h1{
 section#about .about-container p{
     padding: 1rem 0px;
 }
+
+section#about .about-container ul li{
+    padding: 0 1rem;
+}
 /* SECTION ABOUT ENDS */
 
 
@@ -246,7 +250,7 @@ section#about .about-container p{
 
 @media screen and (max-width: 935px) {
     nav{
-        padding: 0px 20px;
+        padding: 0px 40px;
     }
 }
 
@@ -294,7 +298,6 @@ section#about .about-container p{
     }
 
     div#hero .hero-container .hero-first {
-        padding: 1rem;
         align-items: center;
     }
 
