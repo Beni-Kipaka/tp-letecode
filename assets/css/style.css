@@ -348,8 +348,12 @@ section#about .about-container p{
         font-size: 15px;
     }
 
+    div#hero{
+        padding: 0;
+    }
+
     div#hero .hero-container .hero-first img {
-        width: 400px;
+        width: 350px;
     }
 
     div#hero .hero-container .hero-second h1 {
