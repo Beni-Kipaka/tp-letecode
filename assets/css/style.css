@@ -26,6 +26,7 @@ section{
     color: #fff;
     background-color: #DE258A;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 .btn-primary:hover{
