@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    list-style: none;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 10%;
+}
+
+.btn{
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius: .4rem;
+    padding: .4rem;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #DE258A;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #3DBAF4;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.open-btn{
+    font-size: 30px;
+    color: #EEEEEE;
+    display: none;
+}
+
+.close-btn{
+    font-size: 30px;
+    color: #EEEEEE;
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    height: 75px;
+    line-height: 75px;
+    background: #0F2243;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+nav .logo-brand{
+    display: flex;
+}
+
+nav .logo-brand a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+nav img{
+    width: 80px;
+    height: 80px;
+}
+
+nav .nav-list{
+    display: flex;
+}
+
+nav .nav-list .nav-item{
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: .4s;
+}
+
+nav .nav-list .nav-item .nav-link{
+    color: #fff;
+    font-size: 18px;
+}
+
+nav .nav-list .nav-item .nav-link:hover{
+    font-weight: 500;
+    border-bottom: 2px solid #fff;
+    transition: .2s;
+    
+}
+
+
+
+/* NAVBAR TOGGLER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME SECTION STARTS */
+section#welcome{
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+section#welcome .heading{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+section#welcome .heading h1{
+    font-size: 35px;
+    padding-top: 1.5rem;
+}
+
+section#welcome .heading h6{
+    font-weight: 400;
+    font-size: 20px;
+}
+/* HOME SECTION ENDS */
+
+
+
+
+
+
+
+
+
+
+/* HERO SECTION STARTS */
+div#hero{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #EEEEEE;
+}
+
+div#hero .hero-container{
+    display: flex;
+    align-items: center;
+}
+
+div#hero .hero-container .hero-first{
+    padding: 4rem;
+}
+
+div#hero .hero-container .hero-first img{
+    width: 300px;
+}
+
+div#hero .hero-container .hero-second{
+    padding: 4rem;
+}
+
+div#hero .hero-container .hero-second h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+/* HERO SECTION ENDS */
+
+
+
+
+/* SECTION ABOUT STARTS */
+section#about .about-container p{
+    padding: 1rem 0px;
+}
+/* SECTION ABOUT ENDS */
+
+
+
+
+
+
+/* FOOTER SECTION STARTS */
+#footer{
+    background-color: #0F2243;
+    padding: 6rem 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer span,
+#footer a{
+    color: #EEEEEE;
+}
+
+#footer .footer-icons a i{
+    color: #EEEEEE;
+    margin-right: 1rem;
+}
+
+#footer .footer-icons a i:hover{
+    color: #DE258A;
+    transition: .2s ease-in;
+    transform: translateY(-.25rem);
+}
+/* FOOTER SECTION ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 935px) {
+    nav{
+        padding: 0px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 675px) {
+    nav .nav-list{
+        display: grid;
+        position: absolute;
+        background: #0F2243;
+        width: 100%;
+        top: 75px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transform: .6s;
+    }
+
+    nav .nav-list .nav-item{
+        padding-left: 35px;
+    }
+
+    nav .navbar-toggler{
+        display: grid !important;
+    }
+
+    div#hero {
+        padding: 0 1%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background-color: #EEEEEE;
+    }
+
+    div#hero .hero-container{
+        display: block;
+        align-items: center;
+    }
+
+    div#hero .hero-container .hero-first {
+        padding: 1rem;
+    }
+
+    div#hero .hero-container .hero-first img {
+        width: 550px;
+    }
+
+    div#hero .hero-container .hero-second {
+        padding: 3%;
+    }
+
+    div#hero .hero-container .hero-second h1 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 3%;
+    }
+
+    nav .nav-list{
+        display: none;
+    }
+
+    nav img {
+        width: 50px;
+        height: 75px;
+    }
+
+    nav .logo-brand a {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 0.2rem;
+    }
+
+    section#welcome .heading h1 {
+        font-size: 30px;
+    }
+
+    section#welcome .heading h6 {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    div#hero .hero-container .hero-first img {
+        width: 400px;
+    }
+
+    div#hero .hero-container .hero-second h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        background-color: #0F2243;
+        padding: 2rem 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer span{
+        font-size: 1rem;
+    }
+
+    #footer .footer-icons{
+        padding-top: 1rem;
+    }
+
+    #footer .footer-icons i{
+        font-size: 1.2rem;
+    }
+
+
+    /* OFFCANVA-MENU */
+    .offcanvas-menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #0F2243;
+        width: 70vw;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        transform: translateX(100%);
+        transition: all .4s ease;
+    }
+    
+    .offcanvas-menu.active{
+        transform: translateX(0);
+    }
+
+    .open-btn{
+        display: block;
+    }
+    
+    .close-btn{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 30px;
+        color: #fff;
+        display: block;
+    }
+    
+    .offcanvas-menu .nav-list{
+       width: 100%;
+       display: block;
+       align-items: center;
+    }
+    
+    .offcanvas-menu .nav-list .nav-item .nav-link{
+        font-size: 20px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.5;
+        display: block;
+        /* flex-direction: column; */
+        padding: 15px 0 15px 7vw;
+        transition: .2s ease;
+    }
+    
+    .offcanvas-menu .nav-list .nav-item .nav-link:hover{
+        font-weight: 500;
+        transition: .2s;
+        background: #DE258A;
+        border-bottom: none;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px){
+    div#hero .hero-container .hero-first img {
+        width: 280px;
+    }
+}
+
+
+
+
+
+
+
