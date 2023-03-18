@@ -362,7 +362,7 @@ section#about .about-container ul li{
     }
 
     div#hero .hero-container .hero-first img {
-        width: 250px;
+        width: 280px;
     }
 
     div#hero .hero-container .hero-second h1 {
@@ -446,10 +446,15 @@ section#about .about-container ul li{
 
 @media screen and (max-width: 400px){
     div#hero .hero-container .hero-first img {
-        width: 170px;
+        width: 200px;
     }
 }
 
+@media screen and (max-width: 300px){
+    div#hero .hero-container .hero-first img {
+        width: 100px;
+    }
+}
 
 
 
