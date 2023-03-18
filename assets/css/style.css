@@ -357,8 +357,12 @@ section#about .about-container ul li{
         padding: 0;
     }
 
+    div#hero .hero-container .hero-first {
+        padding: 6rem;
+    }
+
     div#hero .hero-container .hero-first img {
-        width: 290px;
+        width: 270px;
     }
 
     div#hero .hero-container .hero-second h1 {
@@ -440,27 +444,13 @@ section#about .about-container ul li{
 
 }
 
-
-
-
-
-@media screen and (max-width: 320px){
-    div#hero .hero-container .hero-first img {
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 350px){
-    div#hero .hero-container .hero-first img {
-        width: 220px;
-    }
-}
-
 @media screen and (max-width: 400px){
     div#hero .hero-container .hero-first img {
-        width: 270px;
+        width: 170px;
     }
 }
+
+
 
 
 
